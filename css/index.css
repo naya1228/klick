@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* 화면 기본 설정 */
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+/* 헤더 스타일 */
+header {
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 20px;
+}
+
+/* 메인 컨테이너 */
+.game-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* 화면 박스 */
+.screen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	position: relative;
+}
+
+/* 원형 버블 */
+#bubble {
+	width: 30px;
+	height: 30px;
+	background-color: tomato;
+	border-radius: 50%;
+	position: absolute;
+	cursor: pointer;
+}
+
+/* 푸터 스타일 */
+footer {
+	margin-top: 20px;
+	font-size: 14px;
+	color: #555;
+}
