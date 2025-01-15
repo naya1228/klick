@@ -33,8 +33,6 @@ header {
 /* 화면 박스 */
 .screen {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	width: 150px;
 	height: 150px;
 	border: 2px solid black;
@@ -47,7 +45,7 @@ header {
 	height: 30px;
 	background-color: tomato;
 	border-radius: 50%;
-	position: absolute;
+	position: static;
 	cursor: pointer;
 }
 

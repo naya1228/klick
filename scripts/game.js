@@ -3,13 +3,15 @@ const main = document.querySelector("main");
 const footer = document.querySelector("footer");
 const screen = document.querySelector(".screen");
 const bubble = document.querySelector("#bubble");
+const sR = screen.getBoundingClientRect();
 
-function moveBubble() {
-	const sR = screen.getBoundingClientRect();
-	const x = Math.random() * (sR.innerWidth - bubble.offsetWidth);
-	const y = Math.random() * (sR.innerHeight - bubble.offsetHeight);
+bubble.style.transform = "translate(-50px, -50px)";
+
+function moveBubble(sR) {
+	const x = Math.random() * (sR.width - bubble.offsetWidth);
+	const y = Math.random() * (sR.height - bubble.offsetHeight);
 	bubble.style.transform = `translate(${x}px, ${y}px)`;
 	console.log("Bubble moved");
 }
 
-setInterval(moveBubble, 1000);
+setInterval(() => moveBubble(sR), 1000);
