@@ -33,8 +33,9 @@ header {
 /* 화면 박스 */
 .screen {
 	display: flex;
-	width: 150px;
-	height: 150px;
+	justify-content: unset;
+	width: 300px;
+	height: 300px;
 	border: 2px solid black;
 	position: relative;
 }
@@ -45,12 +46,14 @@ header {
 	height: 30px;
 	background-color: tomato;
 	border-radius: 50%;
-	position: static;
 	cursor: pointer;
 }
 
 /* 푸터 스타일 */
 footer {
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 	margin-top: 20px;
 	font-size: 14px;
 	color: #555;
