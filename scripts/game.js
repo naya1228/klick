@@ -1,7 +1,7 @@
 const header = document.querySelector("header");
 const main = document.querySelector("main");
 const footer = document.querySelector("footer");
-const screen = document.querySelector(".screen");
+const screen = main.querySelector("screen");
 const bubble = document.querySelector("#bubble");
 const sR = screen.getBoundingClientRect();
 
