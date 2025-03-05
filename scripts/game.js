@@ -5,8 +5,8 @@ const screen = main.querySelector(".screen");
 const bubble = document.querySelector("#bubble");
 
 setInterval(() => {
-	screen.style.width = `${window.innerWidth}px`;
-	screen.style.height = `${window.innerHeight}px`;
+	screen.style.width = `${window.innerWidth-200}px`;
+	screen.style.height = `${window.innerHeight-100}px`;
 }, 1000);
 
 // function moveBubble(sR) {
