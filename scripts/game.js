@@ -5,9 +5,9 @@ const screen = main.querySelector(".screen");
 const bubble = document.querySelector("#bubble");
 
 setInterval(() => {
-	screen.style.width = `${window.innerWidth-200}px`;
-	screen.style.height = `${window.innerHeight-100}px`;
-}, 1000);
+	screen.style.width = `${window.innerWidth - 200}px`;
+	screen.style.height = `${window.innerHeight - 100}px`;
+}, 10);
 
 // function moveBubble(sR) {
 // 	const x = Math.random() * (sR.width - bubble.offsetWidth);
