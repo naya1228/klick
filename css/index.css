@@ -42,8 +42,6 @@ header {
 
 /* 원형 버블 */
 #bubble {
-	width: 30px;
-	height: 30px;
 	background-color: tomato;
 	border-radius: 50%;
 	cursor: pointer;
