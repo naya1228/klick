@@ -4,10 +4,10 @@ const footer = document.querySelector("footer");
 const screen = main.querySelector(".screen");
 const bubble = document.querySelector("#bubble");
 
-
-
-setInterval(()=>{screen.style.width = window.innerWidth;
-screen.style.height = window.innerHeight;}, 1000);
+setInterval(() => {
+	screen.style.width = `${window.innerWidth}px`;
+	screen.style.height = `${window.innerHeight}px`;
+}, 1000);
 
 // function moveBubble(sR) {
 // 	const x = Math.random() * (sR.width - bubble.offsetWidth);
