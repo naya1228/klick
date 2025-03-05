@@ -5,7 +5,8 @@ const screen = main.querySelector("screen");
 const bubble = document.querySelector("#bubble");
 const sR = screen.getBoundingClientRect();
 
-
+screen.width = window.innerWidth;
+screen.height = window.innerHeight;
 // function moveBubble(sR) {
 // 	const x = Math.random() * (sR.width - bubble.offsetWidth);
 // 	const y = Math.random() * (sR.height - bubble.offsetHeight);
