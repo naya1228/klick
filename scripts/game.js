@@ -1,13 +1,13 @@
 const header = document.querySelector("header");
 const main = document.querySelector("main");
 const footer = document.querySelector("footer");
-const screen = main.querySelector("screen");
+const screen = main.querySelector(".screen");
 const bubble = document.querySelector("#bubble");
-const sR = screen.getBoundingClientRect();
 
 
-setInterval(()=>{screen.width = window.innerWidth;
-screen.height = window.innerHeight;}, 1000);
+
+setInterval(()=>{screen.style.width = window.innerWidth;
+screen.style.height = window.innerHeight;}, 1000);
 
 // function moveBubble(sR) {
 // 	const x = Math.random() * (sR.width - bubble.offsetWidth);
