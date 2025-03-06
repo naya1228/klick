@@ -4,7 +4,6 @@ const footer = document.querySelector("footer");
 const screen = main.querySelector(".screen");
 const bubble = document.querySelector("#bubble");
 
-bubble.style.width = `${screen.width}`
 
 resizeScreen();
 function resizeScreen(){
