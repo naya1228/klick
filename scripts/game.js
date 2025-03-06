@@ -6,20 +6,6 @@ const bubble = document.querySelector("#bubble");
 const ul = screen.querySelector("ul");
 const startBtn = ul.getElementById("startBtn");
 const restartBtn = ul.getElementById("restartBtn");
-restartBtn.parentElement.hidden = true;
-
-let playtime = 300;
-
-function StartGame(event) {
-	startBtn.parentElement.hidden = true;
-	restartBtn.parentElement.hidden = false;
-}
-
-
-
-
-
-startBtn.addEventListener("click", StartGame);
 
 resizeScreen();
 function resizeScreen() {
