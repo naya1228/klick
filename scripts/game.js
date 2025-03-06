@@ -15,6 +15,12 @@ function StartGame(event) {
 	restartBtn.parentElement.hidden = false;
 }
 
+
+
+
+
+startBtn.addEventListener("click", StartGame);
+
 resizeScreen();
 function resizeScreen() {
 	screen.style.width = `${window.innerWidth * 0.6}px`;
