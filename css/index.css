@@ -4,7 +4,9 @@
 	box-sizing: border-box;
 }
 
-/* 화면 기본 설정 */
+ul {
+	list-style-type:none;
+}
 
 body {
 	margin: 0;
@@ -51,10 +53,11 @@ button {
 	cursor: pointer;
 }
 
+
 .overlay {
 	display:flex;
 	justify-content:center;
-	flex-direction:;
+	flex-direction:column;
 	align-items:center;
 	z-index: 2;
 }
