@@ -59,4 +59,10 @@ footer {
 
 button {
 	font-size: 16px;
+	cursor: pointer;
+}
+
+.overlay {
+	position: absolute;
+	z-index: 2;
 }
