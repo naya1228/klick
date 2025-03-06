@@ -54,7 +54,8 @@ button {
 .overlay {
 	display:flex;
 	justify-content:center;
-	flex-direction:column;
+	flex-direction:row;
+	align-items:center;
 	top: 30px;
 	position: absolute;
 	z-index: 2;
