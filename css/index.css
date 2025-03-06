@@ -52,5 +52,9 @@ button {
 }
 
 .overlay {
+	display:flex;
+	justify-content:center;
+	flex-direction:;
+	align-items:center;
 	z-index: 2;
 }
