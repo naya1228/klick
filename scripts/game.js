@@ -4,8 +4,8 @@ const footer = document.querySelector("footer");
 const screen = main.querySelector(".screen");
 const bubble = document.querySelector("#bubble");
 const ul = screen.querySelector("ul");
-const startBtn = ul.getElementById("startBtn");
-const restartBtn = ul.getElementById("restartBtn");
+const startBtn = ul.querySelector("#startBtn");
+const restartBtn = ul.querySelector("#restartBtn");
 
 resizeScreen();
 function resizeScreen() {
