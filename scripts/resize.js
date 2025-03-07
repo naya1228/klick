@@ -6,10 +6,16 @@ const ul = main.querySelector("ul");
 const startBtn = ul.querySelector("#startBtn");
 const restartBtn = ul.querySelector("#restartBtn");
 
-resizeScreen();
 function resizeScreen() {
-	screen.style.width = `${window.innerWidth * 0.8}px`;
-	screen.style.height = `${window.innerHeight * 0.6}px`;
+	let SH = window.innerHeight * 0.6;
+	let SW = window.innerWidth * 0.8;
+	if (SH > SW) {
+		screen.style.width = `${SW}px`;
+		screen.style.height = `${(SW / 4) * 3}px`;
+	} else if (SW >= SH) {
+		screen.style.width = `${(SH / 3) * 4}px`;
+		screen.style.height = `${SH}px`;
+	}
 }
 
 window.addEventListener("resize", resizeScreen);
