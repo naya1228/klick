@@ -32,16 +32,21 @@ footer {
   color: gray;
   font-size: 14px;
 }
+
 .header-wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto 0;
   padding: 10px;
+  text-align: center; /* h1을 가운데 */
 }
 
 .score-board {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 18px;
   font-weight: bold;
   color: #333;
