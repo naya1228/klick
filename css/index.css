@@ -5,10 +5,6 @@ body {
   padding: 0;
 }
 
-h1 {
-  margin: 0;
-}
-
 .game-container {
   width: 80%;
   height: 60vh;
@@ -33,20 +29,16 @@ footer {
   font-size: 14px;
 }
 
-.header-wrap {
-  position: relative;
-  width: 80%;
-  max-width: 800px;
-  margin: 20px auto 0;
-  padding: 10px;
-  text-align: center; /* h1을 가운데 */
+header {
+  text-align: center;
+  margin-top: 40px;
 }
 
 .score-board {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: right;
   font-size: 18px;
   font-weight: bold;
   color: #333;
