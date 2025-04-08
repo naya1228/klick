@@ -32,19 +32,17 @@ footer {
   color: gray;
   font-size: 14px;
 }
-
-header {
-  position: relative;
-  width: fit-content;
-  margin: 0 auto; /* 게임컨테이너와 정렬을 맞추기 위해 */
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 .score-board {
-  position: absolute;
-  top: 0;
-  right: 0;
   font-size: 18px;
   font-weight: bold;
   color: #333;
-  padding: 5px 10px;
 }
