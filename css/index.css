@@ -10,12 +10,14 @@ h1 {
 }
 
 .game-container {
-  width: 600px;
-  height: 400px;
+  width: 80%;
+  height: 60vh;
+  max-width: 800px;
+  max-height: 600px;
   border: 1px solid black;
   margin: 20px auto;
   position: relative;
-  background-color: #f9f9f9; /* 화면이 잘 보이게 배경 추가 */
+  background-color: #f9f9f9;
 }
 
 .start-button {
