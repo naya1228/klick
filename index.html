@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html lang="ko">
-	<head>
-		<meta charset="UTF-8" />
-		<title>Klick Game</title>
-		<link rel="stylesheet" href="css/index.css" />
-	</head>
-	<body>
-		<header class="header-wrap">
-			<h1>Klick Game</h1>
-		</header>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Klick Game</title>
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+  <h1>Klick</h1>
+  <div id="scoreboard">
+    <span id="timer">30</span>
+    <span>Score: <span id="score">0</span></span>
+  </div>
 
-		<div class="score-board">Score: <span id="score">0</span></div>
+  <div id="game-container">
+    <button id="start-button">Start</button>
+    <div id="bubble"></div>
+    <div id="end-screen">
+      <div id="final-score">0</div>
+      <button id="restart-button">Restart</button>
+    </div>
+  </div>
 
-		<main class="game-container">
-			<button class="start-button">Start</button>
-		</main>
-
-		<footer>
-			Klick © 2025<br />
-			Made by naya
-		</footer>
-	</body>
+  <script src="scripts/timer.js"></script>
+  <script src="scripts/game.js"></script>
+</body>
 </html>
