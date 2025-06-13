@@ -34,7 +34,12 @@ h1 {
   flex-direction:column;
 }
 
-.bubble {
+#end-screen{
+  display:inline-flex;
+  justify-content:space-between;
+}
+
+#bubble {
   position: absolute;
   width: 50px;
   height: 50px;
