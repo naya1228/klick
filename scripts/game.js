@@ -23,7 +23,7 @@ function startGame() {
 	scoreSpan.textContent = score;
 	startButton.style.display = "none";
 	endScreen.style.display = "none";
-	bubble.style.display = "block";
+	bubble.style.display = "flex";
 	isGameRunning = true;
 
 	moveBubble();
