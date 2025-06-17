@@ -4,7 +4,7 @@ const timerDisplay = document.getElementById("timer");
 
 function startTimer(onTimeUp) {
 	timeLeft = 30;
-	timerDisplay.textContent = timeLeft;
+	timerDisplay.textContent = `${timeLeft}s `;
 
 	countdownInterval = setInterval(() => {
 		timeLeft--;
