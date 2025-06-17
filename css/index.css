@@ -17,6 +17,10 @@ h1 {
 #scoreboard {
   margin: 1rem 0;
   font-size: 1.2rem;
+  width: 100%; /* 또는 고정된 최대 너비 */
+  max-width: 400px; /* 게임 박스랑 맞추면 예쁨 */
+  display: flex;
+  justify-content: space-between;
 }
 
 #game-container {
