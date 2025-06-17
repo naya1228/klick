@@ -8,7 +8,7 @@ function startTimer(onTimeUp) {
 
 	countdownInterval = setInterval(() => {
 		timeLeft--;
-		timerDisplay.textContent = timeLeft;
+		timerDisplay.textContent = `${timeLeft}s `;
 		if (timeLeft <= 0) {
 			clearInterval(countdownInterval);
 			onTimeUp();
